@@ -133,7 +133,7 @@ td {
     width: 320px;
     height: 440px;
     display: inline-block;
-    margin: 12px;
+    /* magit srgin: 8px; */
     text-align: center;
     background-color: #FFFFFF;
     border-radius: 8px;

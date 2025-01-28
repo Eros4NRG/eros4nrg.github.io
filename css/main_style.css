@@ -47,7 +47,7 @@ td {
 /* ------------------- Header ------------------- */
 .header {
     width: 100%;
-    background-image: url('../images/Eros4NRG.jpg');
+    background-image: url('/images/Eros4NRG.jpg');
     background-size: cover;
     border: 1px solid #14532D; /* Deep Green */
     min-height: 300px;
@@ -117,9 +117,21 @@ td {
 }
 
 /* ------------------- Cards ------------------- */
+/* Ensure cards are centered */
+.card-container {
+    display: flex; /* Enables flexbox */
+    flex-wrap: wrap; /* Allows wrapping to the next line if necessary */
+    justify-content: center; /* Centers the cards horizontally */
+    align-items: flex-start; /* Aligns cards to the top if their heights differ */
+    gap: 20px; /* Adds spacing between cards */
+    margin: 20px 0; /* Optional: Adds space above and below the cards */
+    padding: 10px; /* Optional: Adds padding to the container */
+}
+
+
 .card {
-    width: 240px;
-    height: 350px;
+    width: 320px;
+    height: 440px;
     display: inline-block;
     margin: 12px;
     text-align: center;

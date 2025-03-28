@@ -217,3 +217,57 @@ td {
 .text_center {
     text-align: center;
 }
+
+
+/* Dropdown container should be relatively positioned */
+.dropdown {
+    position: relative;
+    display: inline-block; /* So it sits alongside other links */
+}
+
+/* Hide the dropdown-content by default */
+.dropdown-content {
+    display: none; /* Important: hidden initially */
+    position: absolute; /* Position it below the "Resources" item */
+    background-color: #6E8E59; /* Same background as your nav, or your choice */
+    min-width: 160px; /* Adjust as needed */
+    z-index: 999; /* Sit on top of other elements */
+    border-radius: 6px;
+}
+
+/* The links in the dropdown */
+.dropdown-content a {
+    display: block;
+    padding: 8px 20px;
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    text-align: left;
+}
+
+/* Highlight sub-link on hover */
+.dropdown-content a:hover {
+    background-color: #103822; /* Darker green on hover */
+}
+
+/* Show the dropdown-content on hover over .dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Keep the main link styled consistently */
+.dropdown > a {
+    font-weight: bold;
+    color: #FFFFFF; /* White */
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 10px; 
+    border-radius: 6px;
+}
+
+/* Hover style for the main Resources link itself */
+.dropdown > a:hover {
+    background-color: #103822; /* Darker Green */
+    cursor: pointer;
+}

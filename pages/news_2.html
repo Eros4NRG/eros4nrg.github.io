@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Eros4NRG - News #1</title>
+
+    <!-- jQuery and highlight.js if needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#meta_info").load("/page_elements/meta_info.html");
+            $("#header").load("/page_elements/header.html");
+            $("#footer").load("/page_elements/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <!-- Additional meta, fonts, CSS -->
+    <div id="meta_info"></div>
+
+    <!-- Header -->
+    <div id="header"></div>
+
+    <div class="page">
+        <div class="page_header">Inside Eros4NRG: A deep dive into the technology</div>
+
+        <table>
+            <tr>
+                <td class="text-cell">
+                    <p>
+                        Eros4NRG is at the forefront of energy data security, leveraging cutting-edge Zero Trust Architectures (ZTA) and Explainable AI (xAI) to ensure transparent and reliable smart grid operations. But how does it work? Let’s take a closer look.
+                    </p>
+                    <br>
+                    <ul>
+                        <li>
+                            Zero Trust Architectures (ZTA): Traditional security models assume trust within networks. Eros4NRG eliminates this assumption by continuously verifying access requests, ensuring robust cybersecurity in energy data flows.
+                        </li>
+                        <li>
+                            Explainable AI (xAI): Our AI models provide transparent and interpretable insights, allowing stakeholders to make informed decisions based on trustworthy predictive analytics.
+                        </li>
+                        <li>
+                            Interoperability with the NEMO Meta-Operating System: Eros4NRG is being developed as a plugin that integrates seamlessly into NEMO’s Smart Energy and Mobility Living Lab, facilitating real-time data sharing and analysis.
+                        </li>
+                    </ul>
+                    <br>
+                    <p>
+                        These technological advancements are crucial in optimizing energy usage, improving predictive analysis for building consumption and EV fleet management, and ensuring secure, data-driven decision-making.
+                        <br>
+                        With the latest developments in predictive analytics and data refinement, our team continues to innovate, refining our models based on real-world feedback from stakeholders such as ASM Terni. Stay tuned for more updates as we progress toward a smarter and more secure energy future!
+                    </p>
+                </td>
+                <td class="image-cell">
+                    <img src="/images/Eros4NRG-logo.png" width="300px" alt="Eros4NRG Logo">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+</body>
+</html>

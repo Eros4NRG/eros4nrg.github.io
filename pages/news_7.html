@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Eros4NRG - News #1</title>
+
+    <!-- jQuery and highlight.js if needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#meta_info").load("/page_elements/meta_info.html");
+            $("#header").load("/page_elements/header.html");
+            $("#footer").load("/page_elements/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <!-- Additional meta, fonts, CSS -->
+    <div id="meta_info"></div>
+
+    <!-- Header -->
+    <div id="header"></div>
+
+    <div class="page">
+        <div class="page_header">Behind the scenes: Building the Eros4NRG plugin for NEMO</div>
+
+        <table>
+            <tr>
+                <td class="text-cell">
+                    <p>
+                        The Eros4NRG plugin is a key component in integrating the project with the NEMO Meta-Operating System, ensuring seamless data sharing, security and analysis within smart energy ecosystems
+                    </p>
+                    <br>
+                    <p>
+                        Development Highlights:
+                    </p>
+                    <br>
+                    <ul>
+                        <li>
+                            Predictive Analytics Engine: Designed to process IoT and edge data, enabling smarter forecasting for energy and mobility applications.
+                        </li>
+                        <li>
+                            Zero Trust Integration: Implementing continuous verification mechanisms to enhance cybersecurity across the energy data chain.
+                        </li>
+                        <li>
+                            Interoperability with NEMO: Ensuring that Eros4NRG functions smoothly as part of the Smart Energy and Mobility Living Lab.
+                        </li>
+                    </ul>
+                    <p>
+                        By refining data models and continuously integrating stakeholder feedback, Eros4NRG is ensuring its plugin is both practical and impactful in real-world applications.
+                        Stay tuned for updates on our development journey!
+                    </p>
+                </td>
+                <td class="image-cell">
+                    <img src="/images/Eros4NRG-logo.png" width="300px" alt="Eros4NRG Logo">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+news_1.html<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Eros4NRG - News #1</title>
+
+    <!-- jQuery and highlight.js if needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#meta_info").load("/page_elements/meta_info.html");
+            $("#header").load("/page_elements/header.html");
+            $("#footer").load("/page_elements/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <!-- Additional meta, fonts, CSS -->
+    <div id="meta_info"></div>
+
+    <!-- Header -->
+    <div id="header"></div>
+
+    <div class="page">
+        <div class="page_header">Eros4NRG Unveils Detailed Design for Next-Gen Energy Analytics Platform</div>
+
+        <table>
+            <tr>
+                <td class="text-cell">
+                    <p>
+                        Martel Innovate is excited to announce the publications of D1 – "Eros4NRG Detailed Design", a foundational deliverable that lays the architectural blueprint for the Eros4NRG platform. This milestone marks a critical step toward realizing a One-Stop-Shop (OSS) for energy stakeholders, enabling data-driven decision-making through predictive analytics and secure, scalable infrastructure.
+                    </p>
+                    <br>
+                    <h4>Key Highlights of the Detailed Design</h4>
+                    <br>
+                    <p>
+                        The D1 deliverable outlines Eros4NRG’s vision to address pressing challenges in energy data management, including unreliable IoT sources, disorganized datasets, and the need for AI/ML transparency. Key components of the design include:
+                    </p>
+                    <br>
+                    <h5>
+                        Zero Trust Data Services
+                    </h5>
+                    <br>
+                    <ul>
+                        <li>
+                             Secure data capture from IoT/Edge devices (e.g. EV fleets, PV plants).
+                        </li>
+                        <li>
+                            Anomaly detection and workflow orchestration to ensure data quality.
+                        </li>
+                        <li>
+                            Integration with cloud-native tools like Kubernetes and Docker.
+                        </li>
+                    </ul>
+                    <br>
+                    <h5>
+                        Collaborative Data Enclaves
+                    </h5>
+                    <br>
+                    <ul>
+                        <li>
+                            A multi-layered storage system featuring a Data Lake, Graph Enclave (for metadata), and Dynamic Enclave (for time-series data).
+                        </li>
+                        <li>
+                            Semantic links between static and dynamic data to enhance query efficiency.
+                        </li>
+                    </ul>
+                    <br>
+                    <h5>
+                        One-Stop-Shop (OSS) for Energy
+                    </h5>
+                    <br>
+                    <ul>
+                        <li>
+                            User-friendly dashboards for real-time visualizations and AI/ML-driven forecasts.
+                        </li>
+                        <li>
+                            Role-based access control via NEMO Unified Access Control to secure sensitive data.
+                        </li>
+                        <li>
+                            Predictive models for PV energy production, building consumption, and EV battery health.
+                        </li>
+                    </ul>
+                    <br>
+                    <h4>
+                        Pilot Applications & Impact
+                    </h4>
+                    <br>
+                    <p>
+                        Eros4NRG’s design caters to two key stakeholders:
+                    </p>
+                    <ul>
+                        <li>
+                            ASM Terni: Optimizing demand-response strategies with 3-hour-ahead energy forecasts.
+                        </li>
+                        <li>
+                            EMOTION: Monitoring EV charging patterns and predicting battery state of charge (1-hour-ahead).
+                        </li>
+                    </ul>
+                    <br>
+                    <p>
+                        The platform’s economic potential spans energy operators, IT SMEs, researchers and policymakers, with projected benefits including:
+                    </p>
+                    <ul>
+                        <li>
+                            5–10% energy savings through AI-driven insights
+                        </li>
+                        <li>
+                            50% reduction in data maintenance efforts via automated anomaly detection.
+                        </li>
+                        <li>
+                            Compliance with EU data spaces (e.g., GAIA-X) for secure cross-sector collaboration.
+                        </li>
+                    </ul>
+                    <p>
+                        With the design phase finalized, the Eros4NRG team will proceed to WP2 – "DEVELOP", where the core modules will be built and tested. The upcoming D2 deliverable will showcase the Minimum Viable Product (MVP), featuring early integrations and pilot validations.
+                    </p>
+                </td>
+                <td class="image-cell">
+                    <img src="/images/Eros4NRG-logo.png" width="300px" alt="Eros4NRG Logo">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Eros4NRG - News #1</title>
+
+    <!-- jQuery and highlight.js if needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <script>
+        $(function(){
+            $("#meta_info").load("/page_elements/meta_info.html");
+            $("#header").load("/page_elements/header.html");
+            $("#footer").load("/page_elements/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <!-- Additional meta, fonts, CSS -->
+    <div id="meta_info"></div>
+
+    <!-- Header -->
+    <div id="header"></div>
+
+    <div class="page">
+        <div class="page_header">Eros4NRG launches Minimum Viable Product (MVP) for Next-Gen Energy analytics</div>
+
+        <table>
+            <tr>
+                <td class="text-cell">
+                    <p>
+                        Martel Innovate is proud to announce the successful completion of the Minimum Viable Product (MVP) for Eros4NRG, a cutting-edge platform designed to revolutionize energy data monitoring and analytics.
+                        This milestone marks a significant step forward in addressing key challenges in energy management, including unreliable IoT data, disorganized energy datasets, and the need for actionable insights for stakeholders.
+                    </p>
+                    <br>
+                    <h4>
+                        Key Features of the Eros4NRG MVP
+                    </h4>
+                    <br>
+                    <p>
+                        The MVP comprises four core modules, each playing a critical role in transforming raw energy data into actionable intelligence:
+                    </p>
+                    <ul>
+                        <li>
+                            <h5>
+                                Data Gathering Module
+                            </h5>
+                            <p>
+                                Continuously collects real-time data from electric vehicles (EVs), EV charging stations, photovoltaic (PV) plants, and smart headquarters via APIs.
+                                Stores raw data in a scalable MinIO data lake, ensuring efficient processing and retrieval.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>
+                                Data Processing Module
+                            </h5>
+                            <p>
+                                Transforms raw data into structured formats for analysis.
+                                Utilizes PostgreSQL for reliable storage, enabling advanced querying and AI/ML model training.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>
+                                Data Visualization Module
+                            </h5>
+                            <p>
+                                Provides an intuitive dashboard for monitoring energy metrics such as battery status, charging sessions, and consumption trends.
+                                Detects anomalies (e.g., sensor errors) and highlights usage patterns to support decision-making.
+                            </p>
+                        </li>
+                        <li>
+                            <h5>
+                                Data Catalogue Module
+                            </h5>
+                            <p>
+                                Offers a FastAPI-based interface for querying cleaned data, making it accessible for stakeholders
+                            </p>
+                        </li>
+                    </ul>
+                    <h4>
+                        Real-World Impact
+                    </h4>
+                    <p>
+                        The MVP has already demonstrated its value by uncovering data inconsistencies, such as irregular battery percentages in EV fleets, enabling proactive maintenance.
+                        The platform’s modular architecture ensures scalability, paving the way for future enhancements like AI-driven predictive analytics and zero-trust security.
+                    </p>
+                </td>
+                <td class="image-cell">
+                    <img src="/images/Eros4NRG-logo.png" width="300px" alt="Eros4NRG Logo">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+</body>
+</html>
